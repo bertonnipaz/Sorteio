@@ -1,0 +1,70 @@
+.container {
+  margin-top: 70px;
+}
+label {
+  text-align: center;
+  width: 100%;
+  background: #5556ff;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.col-md-12 {
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+.form-control {
+  height: 25px;
+  border: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .col-md-2 {
+    width: 25%;
+    display: inline-block;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .col-md-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33%;
+    display: inline-block;
+    float: left;
+  }
+  label {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .col-md-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+  label {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .col-md-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+  label {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
